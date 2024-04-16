@@ -1,0 +1,14 @@
+name = "findmentororg"
+node_compat = true
+main = "./src/server.js"
+compatibility_date="2023-05-18"
+
+ [secrets]
+DISCORD_TOKEN = ""
+DISCORD_PUBLIC_KEY = ""
+DISCORD_APPLICATION_ID = ""
+OPENAI_API_KEY = ""
+
+compatibility_flags = [ "nodejs_compat" ]
+
+
